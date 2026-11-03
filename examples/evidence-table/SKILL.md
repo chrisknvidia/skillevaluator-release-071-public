@@ -1,5 +1,5 @@
 ---
-name: evidence-table
+name: Invalid_Evidence
 description: Organizes supplied claims and observations into an evidence table. Use when a review must distinguish support, uncertainty, and missing proof.
 license: MIT
 metadata:
