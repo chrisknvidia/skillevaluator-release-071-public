@@ -1,0 +1,108 @@
+{
+  "total": 4,
+  "passed": 4,
+  "failed": 0,
+  "incomplete": 0,
+  "overall_passed": true,
+  "overall_status": "passed",
+  "total_validators": 48,
+  "total_errors": 0,
+  "total_warnings": 14,
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 6,
+    "low": 0
+  },
+  "skills": [
+    {
+      "path": "examples/evidence-table",
+      "report_dir": "skill-001",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    {
+      "path": "examples/glossary-builder",
+      "report_dir": "skill-002",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 4,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      }
+    },
+    {
+      "path": "skills/evidence-table",
+      "report_dir": "skill-003",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 3,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
+    },
+    {
+      "path": "skills/glossary-builder",
+      "report_dir": "skill-004",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 3,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
+    }
+  ],
+  "selection": {
+    "mode": "all",
+    "base": null,
+    "head": null,
+    "discovered": 4,
+    "selected": [
+      "examples/evidence-table",
+      "examples/glossary-builder",
+      "skills/evidence-table",
+      "skills/glossary-builder"
+    ],
+    "deleted": []
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/skillevaluator-release-071-public/actions/runs/41570123984",
+    "commit": "8ad5ea6b30128798329436fef1ab14e4de3418dc",
+    "image": "ghcr.io/nvidia/skillevaluator-tier1@sha256:c75c826f0e52d6c9a8d303ad7eefd606ed86e6940123f42b4eda2457863bcee7",
+    "report_url": "https://chrisknvidia.github.io/skillevaluator-release-071-public/runs/41570123984/1/",
+    "llm_enabled": false,
+    "workflow_sha": "8ad5ea6b30128798329436fef1ab14e4de3418dc"
+  }
+}
